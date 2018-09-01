@@ -15,5 +15,10 @@ Once someone clicks the AWS IoT button, an ”alarm” state is set and actions 
 First, we will call the designated phone (my grandma fix phone) and request to press “1” to deactivate the alarm (in case it was  clicked the button by mistake).
 If it was not a mistake –  there is not answer or does not press “1”- then something is wrong.  we will call the relatives of the person who clicked the button (me as her relative in this case) or other designated phone to inform them ofthe alarm triggered by the person and the real state of alarm. The process will repeat itself, until alarm is deactivated or a configurable number of times, through AWS Step Functions feeded with the appropriate Lambdas.
 
+The overall architecture for Phase 1 looks like this.
+
+Phase 2 is the predictive prescription. The data logged in Amazon DynamoDB from the alarm activation combined with other external data (time of the action, temperature, and moon phase) can be used to train a predictive model. 
+Amazon SageMaker helps us to create this model, train it with a few clicks, and set up the endpoint to obtain predictions. 
 
 
+![alt text](https://github.com/DanGOTO100/IoTAlarmsystem/blob/master/grandamarchitecturephase1.png)
