@@ -17,8 +17,10 @@ If it was not a mistake –  there is not answer or does not press “1”- then
 
 The overall architecture for Phase 1 looks like this.
 
+![alt text](https://github.com/DanGOTO100/IoTAlarmsystem/blob/master/grandamarchitecturephase1.png)
+
+
 Phase 2 is the predictive prescription. The data logged in Amazon DynamoDB from the alarm activation combined with other external data (time of the action, temperature, and moon phase) can be used to train a predictive model. 
 Amazon SageMaker helps us to create this model, train it with a few clicks, and set up the endpoint to obtain predictions. 
 
 
-![alt text](https://github.com/DanGOTO100/IoTAlarmsystem/blob/master/grandamarchitecturephase1.png)
