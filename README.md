@@ -1,12 +1,12 @@
-# IoTAlarmsystem
+# IoT Alarm System  built for my old grandmother using AWS IoT Button and AWS services
+
 A Easy to use IoT Alarm system using AWS IoT button and some services like Lambda, Connect, Step Functions,etc..
 
 I created this to help my Grandmother. My grandma is 88-years old with reduced mobility. She lives alone in a small village without a caretaker and does not really use mobile phones. If she falls, then she is in danger as she will not be able to get back up, same if something goes wrong while sleeping. However, with an AWS IoT button she can call for help by simply pressing the button and potentially save her life. 
 
 Since her village provides free Wi-Fi coverage, I built an emergency alert system using AWS. After clicking the AWS IoT button, a series of events will take place to get her the assistance she needs. This is a simple approach to help her in difficult situations and one others can take as well. 
 
-[[https://github.com/DanGOTO100/IoTAlarmsystem/blob/master/grandmaemergency.png]]
-
+![alt text](https://github.com/DanGOTO100/IoTAlarmsystem/blob/master/grandmaemergency.png) 
 
 
 Basically:
