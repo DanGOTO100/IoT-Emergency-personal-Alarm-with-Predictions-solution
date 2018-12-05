@@ -23,8 +23,8 @@ def lambda_handler(event, context):
     response = client.start_outbound_voice_contact(
         DestinationPhoneNumber='designated phone number',
         ContactFlowId='contact flow number',
-        InstanceId='instace ID',
-        SourcePhoneNumber='source number in Amazon connet'
+        InstanceId='Instance ID',
+        SourcePhoneNumber='source number in Amazon Connet'
     )
 
     # Enrich with weather data
