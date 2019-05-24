@@ -24,3 +24,8 @@ Phase 2 is the predictive prescription. The data logged in Amazon DynamoDB from 
 Amazon SageMaker helps us to create this model, train it with a few clicks, and set up the endpoint to obtain predictions. 
 
 
+![alt text](https://github.com/DanGOTO100/IoTAlarmsystem/blob/master/grandamarchitecturephase2.png)
+
+# Dependencies
+
+The dependencies of the code in this repository are to have a DynamoDB table (check AWS documentation for (Amazon DynamoDB)[https://aws.amazon.com/dynamodb/]) and also AWS Step Functions to orchestrate the Lambdas,as specified in the artchitecture (see (AWS Step Functions)[https://aws.amazon.com/step-functions/] documentation).
